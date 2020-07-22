@@ -26,7 +26,7 @@ TODO: Note sample key
 ## Safety concerns
 
 Hertek Connect API provides you with real-time information about your fire panel. This does not impact the 
-performance or effectiveness of your current fire panel setup. 
+performance or effectiveness of your current fire panel setup.
 
 TODO: Add a note about relation fire panel <-> Hertek Connect
 
@@ -43,8 +43,14 @@ We offer a REST API that provides you with specific installation, zone, and elem
 bearer token, you can retrieve information about API-enabled installations. You can connect to our
 API end-points using a secure HTTPS connection. Responses are sent in JSON format. 
 
+From a safety point of view, API tokens are valid only for a limited amount of time. You can use your Hertek
+Connect account - when it has Connect API enabled - to request a token. This token can then be used to request 
+data about installations, zones, and elements. 
+
 Hertek Connect API supports the [OpenAPI 3.0 specification](https://swagger.io/specification/), which makes it 
-straightforward to use and integrate with.
+straightforward to use and integrate with. You can import this API specification in tools like [Postman](https://www.postman.com/) to experiment with it. 
+
+The `examples/` directory also contains some illustrative code examples on how to use the API end points.
 
 TODO: Link to OpenAPI docs and instruction on how to use the OpenAPI live documentation.
 

@@ -48,7 +48,7 @@ Connect account - when it has Connect API enabled - to request a token. This tok
 data about installations, zones, and elements. 
 
 Hertek Connect API supports the [OpenAPI 3.0 specification](https://swagger.io/specification/), which makes it 
-straightforward to use and integrate with. You can import this API specification in tools like [Postman](https://www.postman.com/) to experiment with it. 
+straightforward to use and integrate with. You can [import](https://learning.postman.com/docs/integrations/available-integrations/working-with-openAPI/) this API specification in tools like [Postman](https://www.postman.com/) to experiment with it. Postman can also [generate code snippets](https://learning.postman.com/docs/sending-requests/generate-code-snippets/) for various programming languages.
 
 The `examples/` directory also contains some illustrative code examples on how to use the API end points.
 

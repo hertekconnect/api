@@ -36,6 +36,7 @@ For this, we want to refer you to Hertek Connect Control for iOS / Android or He
 ## API Specification
 
 There are two parts to Hertek Connect API
+TODO: add schematisch totaal overzicht (opmerking/behoefte van Rens Riksma)
 
 ### Rest API
 
@@ -91,6 +92,25 @@ _NOTE: This is just an example and will change in the future._
     }
 }
 ```
+## Fire specific values and their meaning 
+
+statusCategory
+The possible values and their meaning: 
+  Connection status: connected / not connected 
+  Brand
+  Alarm
+  Verificatie
+  Voor alarm
+  Storing
+  Supervisie
+  Uitschakeling
+  Test
+  Onderhoud
+  Onbekend
+  Normaal
+
+deviceType 
+The possible vlaues and their meaning
 
 ## Technical Support
 

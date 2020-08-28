@@ -112,6 +112,18 @@ The possible values and their meaning:
 deviceType 
 The possible vlaues and their meaning
 
+## Rate limit
+
+The Rest api is rate-limited by a [token bucket](https://en.wikipedia.org/wiki/Token_bucket).
+It adds tokens at some rate. When a request is made, the service attempts to withdraw a token.
+If the bucket is empty, the server responds with `429 - Too many requests`.
+
+| environment | limit (tokens per minute) |
+|-------------|---------------------------|
+| acceptance  | 600                       |
+| production  | 600                       |
+
+
 ## Technical Support
 
 If you have any further questions about the Hertek Connect API, feel free to get in touch.

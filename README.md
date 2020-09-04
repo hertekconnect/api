@@ -61,37 +61,8 @@ In addition to a REST API to retrieve current installation status, we also offer
 in your installation change to a non-normal status (e.g. a fire alarm or malfunction), you can be notified about 
 this through a webhook. This allows you to respond to events in real-time.
 
-They payload for our webhook, a HTTP POST request, is a simple JSON object with actual information about the changed element: 
+You can read more about [Webhooks on the wiki](https://github.com/hertekconnect/api/wiki/Webhooks)
 
-_NOTE: This is just an example and will change in the future._
-
-```
-{
-    "type": "notification",
-    "installation": {
-        "name": "Hertek Weert",
-        "id": "372748",
-        "status": "MALFUNCTION"
-    },
-    "zone": {
-        "name": "1st Floor, West Wing",
-        "number": "1",
-        "id": "8473",
-        "status": "MALFUNCTION"
-    },
-    "element: {
-        "name": "Reception area",
-        "address": {
-            "node": 1,
-            "loop": 1,
-            "address": 63,
-            "sub_address: "0"
-        },
-        status: "DEVICE MISSING",
-        status_category: "MALFUNCTION"
-    }
-}
-```
 ## Fire specific values and their meaning 
 
 statusCategory

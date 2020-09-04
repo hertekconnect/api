@@ -1,5 +1,7 @@
 # Hertek Connect API
 
+Be sure to check out the [Wiki](https://github.com/hertekconnect/api/wiki) for more in depth documentation. 
+
 Hi, and welcome to the Hertek Connect API project. 
 
 _Note: we're in the process of writing this documentation. No rights can be derived from
@@ -82,18 +84,6 @@ The possible values and their meaning:
 
 deviceType 
 The possible vlaues and their meaning
-
-## Rate limit
-
-The Rest api is rate-limited by a [token bucket](https://en.wikipedia.org/wiki/Token_bucket).
-It adds tokens at some rate. When a request is made, the service attempts to withdraw a token.
-If the bucket is empty, the server responds with `429 - Too many requests`.
-
-| environment | limit (tokens per minute) |
-|-------------|---------------------------|
-| acceptance  | 600                       |
-| production  | 600                       |
-
 
 ## Technical Support
 

@@ -65,26 +65,6 @@ this through a webhook. This allows you to respond to events in real-time.
 
 You can read more about [Webhooks on the wiki](https://github.com/hertekconnect/api/wiki/Webhooks)
 
-## Fire specific values and their meaning 
-
-statusCategory
-The possible values and their meaning: 
-  Connection status: connected / not connected 
-  Brand
-  Alarm
-  Verificatie
-  Voor alarm
-  Storing
-  Supervisie
-  Uitschakeling
-  Test
-  Onderhoud
-  Onbekend
-  Normaal
-
-deviceType 
-The possible vlaues and their meaning
-
 ## Technical Support
 
 If you have any further questions about the Hertek Connect API, feel free to get in touch.

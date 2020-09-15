@@ -1,4 +1,4 @@
-# Hertek Connect API
+# Connect Link - the REST API for integrating your fire panel (BMI) to thirdparty software
 
 Be sure to check out the [Wiki](https://github.com/hertekconnect/api/wiki) for more in depth documentation. 
 

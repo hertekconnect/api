@@ -13,12 +13,11 @@ this document; things will change without notice._
 
 Hertek Connect is a digital safety platform linked to Penta fire panels, which enables you to monitor fire safety remotely.
 
-The Hertek Connect platform consists of different applications, one of which is the Hertek Connect API. The Hertek
-Connect API allows you to programmatically interface with real-time data from your fire panel. 
+The Hertek Connect platform consists of different applications, one of which is Connect Link. Connect Link is an API that allows you to programmatically interface with real-time data from your fire panel. 
 
 ## How do I get access?
 
-Please get in touch with your sales representative if you're interested in using Hertek Connect API. 
+Please get in touch with your sales representative if you're interested in using Connect Link. 
 
 ## Getting started
 
@@ -39,7 +38,7 @@ For this, we want to refer you to Hertek Connect Control for iOS / Android or He
 
 ## API Specification
 
-There are two parts to Hertek Connect API
+There are two parts to the API of Connect Link: 
 TODO: add schematisch totaal overzicht (opmerking/behoefte van Rens Riksma)
 
 ### Rest API

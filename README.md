@@ -56,6 +56,7 @@ straightforward to use and integrate with. You can [import](https://learning.pos
 
 The `examples/` directory also contains some illustrative code examples on how to use the API end points.
 
+#### Links:
 * openapi spec: https://api.hertekconnect.nl/api-docs
 * swagger ui: https://api.hertekconnect.nl/api-docs/swagger-ui.html
 

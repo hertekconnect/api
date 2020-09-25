@@ -1,6 +1,6 @@
 # Connect Link 
 
-Connect link is the API for integrating your fire panel (BMI) to thirdparty software.
+[Connect link](https://api.hertekconnect.nl/api-docs/swagger-ui.html) is the API for integrating your fire panel (BMI) to thirdparty software.
 
 Be sure to check out the [Wiki](https://github.com/hertekconnect/api/wiki) for more in depth documentation. 
 
@@ -56,7 +56,10 @@ straightforward to use and integrate with. You can [import](https://learning.pos
 
 The `examples/` directory also contains some illustrative code examples on how to use the API end points.
 
-TODO: Link to OpenAPI docs and instruction on how to use the OpenAPI live documentation.
+#### Links:
+* openapi spec: https://api.hertekconnect.nl/api-docs
+* swagger ui: https://api.hertekconnect.nl/api-docs/swagger-ui.html
+
 
 ### Webhook notifications
 

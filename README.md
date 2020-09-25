@@ -23,6 +23,8 @@ Please get in touch with your sales representative if you're interested in using
 
 To get started, you can read this documentation and the REST API documentation. If you want to use the API, you should contact your distributor to obtain an _integrator_ account.
 
+When you have our integrator account set up, you can use the live REST API documentation to try it out. Or, you can use [Zelda](https://github.com/ariejan/zelda) to interact with the API from the command line (Windows/FreeBSD/Linux/macos).
+
 ## Safety concerns
 
 Hertek Connect API provides you with real-time information about your fire panel. This does not impact the 

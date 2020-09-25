@@ -21,17 +21,14 @@ Please get in touch with your sales representative if you're interested in using
 
 ## Getting started
 
-To get started _right now_ you can make use of a sample account on Hertek Connect. This will provide you with
-realistic data while you develop your integration with Hertek Connect. 
-
-TODO: Note sample key
+To get started, you can read this documentation and the REST API documentation. If you want to use the API, you should contact your distributor to obtain an _integrator_ account.
 
 ## Safety concerns
 
 Hertek Connect API provides you with real-time information about your fire panel. This does not impact the 
 performance or effectiveness of your current fire panel setup.
 
-TODO: Add a note about relation fire panel <-> Hertek Connect
+Your panels emit low level events, which Hertek Connect processes. You can use the REST API to query this processed data.
 
 Due to safety concerns, the Hertek Connect API does not provide the option to control your fire panel remotely. 
 For this, we want to refer you to Hertek Connect Control for iOS / Android or Hertek Connect Support.
@@ -39,7 +36,6 @@ For this, we want to refer you to Hertek Connect Control for iOS / Android or He
 ## API Specification
 
 There are two parts to the API of Connect Link: 
-TODO: add schematisch totaal overzicht (opmerking/behoefte van Rens Riksma)
 
 ### Rest API
 
@@ -56,10 +52,10 @@ straightforward to use and integrate with. You can [import](https://learning.pos
 
 The `examples/` directory also contains some illustrative code examples on how to use the API end points.
 
-#### Links:
-* openapi spec: https://api.hertekconnect.nl/api-docs
-* swagger ui: https://api.hertekconnect.nl/api-docs/swagger-ui.html
+#### Links
 
+* OpenAPI spec (JSON): https://api.hertekconnect.nl/api-docs
+* Live documentation: https://api.hertekconnect.nl/api-docs/swagger-ui.html
 
 ### Webhook notifications
 

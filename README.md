@@ -6,8 +6,6 @@ Be sure to check out the [Wiki](https://github.com/hertekconnect/api/wiki) for m
 
 Hi, and welcome to the Hertek Connect API project. 
 
-_Note: we're in the process of writing this documentation. No rights can be derived from
-this document; things will change without notice._
 
 ## What is Hertek Connect?
 
